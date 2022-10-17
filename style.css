@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:wght@300&family=Montserrat:wght@500&family=Poppins:wght@500&family=Ubuntu&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: #e8e8e8;
+    height: 730px;
+}
+.navMenu{
+    font-family: 'Ubuntu';
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9f9;
+    position: fixed;
+}
+.menuItem{
+    width: 35%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: right;
+    margin-left: 800px;
+    padding-top: 15px;
+    color: white;
+}
+.menuItem li a{
+    color: black;
+}
+.menuItem li{
+    height: 20px;
+    width: 10px;
+}
+.menuItem li:hover a{
+    color: #ff3399;
+    transition: 0.2s ease-out;
+}
+.menuItem .dropDown{
+    width: 310px;
+}
+.dropDown{
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-top: 8px;
+    display: none;
+}
+.dropDown:hover{
+    display: block;
+    transition: 0.2s ease-out;
+}
+#item3:hover .dropDown{
+    display: block;
+    transition: 0.2s ease-out;
+}
+.dropDown ul li{
+    color: #1a1a1a;
+    list-style: none;
+    line-height: 38px;
+    width: 410px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.dropDown .sub li:hover a{
+    color: #ff3399;
+    transition: 0.2s ease-out;
+}
+.introduction{
+    height: 70vh;
+    padding-top: 200px;
+}
+.intro{
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    line-height: 56px;
+}
+h2{
+    color: #f9f9f9;
+    text-align: center;
+}
+p{
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+
+span{
+    color: #ff3399;
+}
+h5{
+    line-height: 40px;
+    text-align: center;
+    color: #e8e8e8;
+    visibility: hidden;
+}
+.container .caseStudy:hover h5{
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+}
+.myWork{
+    font-family: 'Ubuntu';
+    margin-left: 100px;
+}
+.container{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.caseStudy{
+    width: 500px;
+    height: 200px;
+    border: 1px solid none;
+    border-radius: 2px;
+    padding: 55px;
+    border-radius: 10px;
+    background-color: #ff3399;
+    margin: 0;
+}
+.caseStudy p{
+    color: #e8e8e8;
+}
+.caseStudy span{
+    color: #e8e8e8;
+}
+.other{
+    width: 500px;
+    height: 200px;
+    border: 1px solid none;
+    border-radius: 2px;
+    padding: 55px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+.other p{
+    color: #e8e8e8;
+}
+#item3{
+    color:#1a1a1a;
+}
+#item3:hover{
+    color: #ff3399;
+    transition: 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+/* case study */
+.heroImg img{
+    width: 100%;
+    height: 740px;
+}
+.start{
+    font-family: 'Ubuntu';
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.s1{
+    width: 400px;
+    margin-right: 100px;
+}
+.s2{
+    width: 450px;
+}
+.s1 p{
+    text-align: left;
+    line-height: 25px;
+}
+.s2 p{
+    text-align: left;
+    line-height: 25px;
+}
+.start .s2 ul{
+    list-style: none;
+}
+.smallImg{
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.kickOff{
+    font-family: 'Ubuntu';
+    width: 450px;
+    margin-left: 20%;
+}
+.kickOff p{
+    text-align: left;
+}
+.questions{
+    margin-top: 15px;
+}
+.questions p{
+    border-left: 5px solid #ff3399;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.personas{
+    font-family: 'Ubuntu';
+}
+.personas h1{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.personasImg img{
+    width: 800px;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.personas p{
+    text-align: left;
+    margin-left: 20%;
+    line-height: 30px;
+    width: 600px;
+}
+.journey img{
+    width: 900px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.userFlow img{
+    width: 550px;
+    margin-top: 3%;
+}
+.userFlow{
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Ubuntu';
+}
+.wireframes{
+    font-family: "Ubuntu";
+}
+.wireframes h1{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.wireframes p{
+    text-align: left;
+    margin-left: 20%;
+}
+.paper img{
+    width: 900px;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.wireframes .wfapp{
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 100px;
+}
+.wireframes .wfweb{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.wireframes .wfapp img{
+    width: 700px;
+    height: 600px;
+}
+.wfweb img{
+    height: 650px;
+    width: 720px;
+}
+.finalProduct{
+    font-family: 'Ubuntu';
+    margin-top: 10%;
+}
+.finalProduct p{
+    text-align: left;
+    margin-left: 20%;
+}
+.finalProduct h1{
+    margin-left: 20%;
+}
+.proapp img{
+    width: 680px;
+    margin-bottom: 10px;
+}
+.proapp{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.view1 h4{
+    border: 1px solid none;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    float: right;
+    border-radius: 16px;
+    margin-right: 20%;
+    margin-top: 20px;
+    background-color: #ff3399;
+}
+.view1 h4:hover{
+    color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    transition: 0.2s ease;
+    background-color: #f9f9f9;
+}
+h4{
+    color: #f9f9f9;
+}
+.insideFp p{
+    margin-top: 15%;
+}
+.xdweb img{
+    width: 1510px;
+}
+
+.designSystem{
+    margin-top: 15%;
+    font-family: 'Ubuntu';
+}
+.designSystem h1{
+    margin-left: 20%;
+}
+.designSystem img{
+    width: 800px;
+    margin-top: 3%;
+    margin-left: 17.7%;
+}
+.keyTakeaways{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-family: 'Ubuntu';
+}
+.keyTakeaways p{
+    text-align: left;
+    line-height: 30px;
+    width: 600px;
+}
+
+.thankYou{
+    margin-top: 15%;
+    border-top: 1px solid #1e1e1e;
+    width: 960px;
+    margin-left: 20%;
+    font-family: 'Ubuntu';
+    margin-bottom: 10%;
+}
+.thankYou h1{
+    padding-top: 8%;
+}
+.thankYou p{
+    text-align: left;
+    width: 600px;
+    line-height: 25px;
+}
+
+
+
+.resume{
+    display: grid;
+    place-items: center;
+    height: 800px;
+}
+.resume img{
+    height: 600px;
+}
+
+.contact{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.contact img{
+    margin-top: 130px;
+    width: 800px;
+}
+
